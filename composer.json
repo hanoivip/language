@@ -1,13 +1,12 @@
 {
-    "name": "akaunting/language",
+    "name": "hanoivip/language",
     "description": "Language switcher package for Laravel.",
     "keywords": ["laravel", "language", "switcher"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Denis Duliçi",
-            "email": "info@akaunting.com",
-            "homepage": "https://akaunting.com",
+            "name": "hanoivip",
+            "email": "game.oh.vn@gmail.com",
             "role": "Developer"
         }
     ],
