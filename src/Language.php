@@ -186,6 +186,8 @@ class Language
      **/
     public static function back($code)
     {
+        //hanoivip
+        $code = empty($code) ? 'en' : $code;
         return route('language::back', ['locale' => $code]);
     }
 

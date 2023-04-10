@@ -2,6 +2,7 @@
 
 namespace Akaunting\Language\Middleware;
 
+use Illuminate\Support\Facades\Log;
 use Closure;
 use Unicodeveloper\Identify\Facades\IdentityFacade as Identify;
 
@@ -66,6 +67,7 @@ class SetLocale
     public function setSystemLocale($request)
     {
         if ($request->session()->has('locale')) {
+            Log::debug(session('locale'));
             $this->setLocale(session('locale'));
         } else {
             $this->setDefaultLocale();
